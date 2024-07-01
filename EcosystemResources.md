@@ -1,154 +1,153 @@
+# Ekosistem Kaynakları
+Ethereum ekosistemini öğrenmek ve anlamak için mevcut dapp'ler, hizmetler, yazılar ve bilgi tabanlarına yönelik bir rehber.
 
-# Ecosystem Resources
-A guide to the available dapps, services, writings, and knowledge bases for learning and understanding the Ethereum ecosystem.
+Bu kaynak, ekosistem geliştirmeye odaklanmıştır ancak repo ayrıca şunları da içermektedir:
+* [Ethereum Geliştirici Araçları Listesi](README.md)
 
-This resource is meant to be focused on ecosystem development, but the repo also includes:
-* [Ethereum Developer Tools List](README.md)
+## Katkılar kabul edilir!
 
-## Contributions are welcome!
+Küçük düzeltmelerden eklemek istediğiniz araçlara kadar her şeyle ilgili bir pull request göndermekten çekinmeyin. Yeni bir araç ekliyorsanız, lütfen yeni geliştiricilerin anlayacağını düşündüğünüz kısa bir açıklama ekleyin.
 
-Feel free to submit a pull request, with anything from small fixes to tools you'd like to add. If adding a new tool, **please add a brief description** that you think new developers would understand.
+Fikir için Meridio'dan [@corbpage](https://twitter.com/corbpage), genişletme ve kürasyon için [@pakaplace](https://twitter.com/Parker_Place), ve listeyi daha mantıklı bir şekilde yeniden yapılandırdığı için @jpantunes dahil 20'den fazla katkıda bulunan kişiye çok teşekkürler.
 
-Many thanks to the 20+ contributors including [@corbpage](https://twitter.com/corbpage) of Meridio for the idea, [@pakaplace](https://twitter.com/Parker_Place) for expanding and curating, and @jpantunes for restructuring the list in a more logical way.
+## Kaynaklar
+### Cüzdanlar
+* [Metamask](https://metamask.io/) - ERC token desteği ile Chrome uzantısı Ether cüzdanı
+* [Gnosis multisig wallet](https://github.com/gnosis/MultiSigWallet) - Denetlenmiş çok imzalı cüzdan
+* [Exodus](https://www.exodus.io) - Shapeshift entegrasyonu ile masaüstü cüzdanı
+* [Nifty Wallet](https://github.com/poanetwork/nifty-wallet) - Gerçek dünya uygulamalarının kullanılabilirliğine odaklanan Ethereum Tarayıcı Uzantısı
 
-## Resources
-### Wallets
-* [Metamask](https://metamask.io/) - Chrome extension Ether wallet with ERC tokens support
-* [Gnosis multisig wallet](https://github.com/gnosis/MultiSigWallet) - Audited multi-sig wallet
-* [Exodus](https://www.exodus.io) - Desktop wallet with Shapeshift integration
-* [Nifty Wallet](https://github.com/poanetwork/nifty-wallet) - Ethereum Browser Extension focused on usability of real world applications
+#### Web Cüzdanları
+* [MyEtherWallet](https://github.com/MyEtherWallet) - Blok zincirlerle kolayca ve güvenli bir şekilde etkileşim kurmak için açık kaynak [araçlar](https://www.myetherwallet.com/)
+* [MyCrypto](https://github.com/MyCryptoHQ) - Ether cüzdanları oluşturma, ERC-20 tokenleri yönetme ve blok zinciri ile daha kolay etkileşim için açık kaynak, istemci tarafı [araç](https://mycrypto.com/account)
+* [Arkane](https://arkane.network) - Kullanıcı dostu UX ve dapp entegrasyonuna odaklanan web tabanlı cüzdan. (Mobil uyumlu)
+* [Torus](https://tor.us) - DKG'leri kullanan UX odaklı açık kaynak istemci tarafı cüzdan
+* [Portis](https://portis.io/) - DApp'ınıza kolay kullanıcı alımı için web tabanlı cüzdan
+* [Eth lightwallet](https://github.com/ConsenSys/eth-lightwallet) - Node ve tarayıcı için hafif JS Cüzdanı
+* [SpankCard](https://github.com/SpankChain/SpankCard) - Ödeme kanalları desteği ile tarayıcı içinde Ethereum cüzdanı
+* [Mnemonic generator](https://iancoleman.io/bip39/) - Kelime mnemonik ve ilgili genel/özel anahtar çiftlerini oluşturun. Ethereum adreslerini oluşturmak için "Ethereum"u seçin. Truffle-hd-cüzdan için kullanışlı.
+* [FreeWallet](https://freewallet.org/eth-wallet) - Ethereum'u satın almak, depolamak, göndermek ve almak için en iyi cüzdan. Freewallet'in Ethereum Cüzdanı iOS, Android ve web üzerinde mevcuttur.
 
-#### Web Wallets
-* [MyEtherWallet](https://github.com/MyEtherWallet) - Open-source [tools](https://www.myetherwallet.com/) for interacting with the blockchains easily & securely
-* [MyCrypto](https://github.com/MyCryptoHQ) - Open-source, client-side [tool](https://mycrypto.com/account) for generating ether wallets, handling ERC-20 tokens, and interacting with the blockchain more easily
-* [Arkane](https://arkane.network) - Web-based wallet focused on user-friendly UX and dapp integration. (Mobile friendly)
-* [Torus](https://tor.us) - Open-source client side wallet with a focus on UX that leverages on DKGs
-* [Portis](https://portis.io/) - Web-based wallet for easy user on-boarding to your DApp
-* [Eth lightwallet](https://github.com/ConsenSys/eth-lightwallet) - Lightweight JS Wallet for Node and the browser
-* [SpankCard](https://github.com/SpankChain/SpankCard) - An in-browser Ethereum wallet with support for payment channels
-* [Mnemonic generator](https://iancoleman.io/bip39/) - generate word mnemonic and associated public/private key pairs. Select "Ethereum" as coin to generate Ethereum addresses. Useful for truffle-hd-wallet.
-* [FreeWallet](https://freewallet.org/eth-wallet) - The best wallet to buy, store, send and receive Ethereum. The Ethereum Wallet by Freewallet is available on iOS, Android and the web.
+#### Mobil Cüzdanlar
+* [Coinbase Wallet](https://github.com/CoinbaseWallet) - Mobil Dapp gezgini ve [cüzdan](https://apps.apple.com/us/app/coinbase-wallet/id1278383455)
+* [Cipher](https://www.cipherbrowser.com/) - Mobil Dapp gezgini
+* [Trust](https://github.com/trustwallet) - ERC tokenleri için mobil [cüzdan](https://trustwallet.com/)
+* [Status](https://github.com/status-im/status-react) - Ücretsiz açık kaynaklı, mobil Ethereum işletim sistemi
+* [imToken](https://token.im/) - Çok zincirli varlık yönetimi, DApp tarama ve güvenli, özel değer alışverişini sağlayan özellik zengini dijital varlık mobil cüzdanı
+* [Jaxx](https://jaxx.io) - Hem mobil hem de masaüstü cüzdan. Entegre Shapeshift desteği var
+* [WallETH](https://walleth.org) - Yerel Android Ethereum Cüzdanı
+* [eth-wallet-light](https://github.com/NoahZinsmeister/eth-wallet-light) - Mobil için optimize edilmiş hafif JS Cüzdanı
+* [Metamask](https://play.google.com/apps/testing/io.metamask) - ERC token desteği ile mobil Ether cüzdanı **beta**
+* [WiniWallet](https://www.winiwallet.io/) - Birden fazla DeFi yatırımı olan DAI stabilcoin cüzdanı
+* [FreeWallet](https://freewallet.org/eth-wallet) - Ethereum'u satın almak, depolamak, göndermek ve almak için en iyi cüzdan. Freewallet'in Ethereum Cüzdanı iOS, Android ve web üzerinde mevcuttur.
+* [UnstopableWallet](https://unstoppable.money/) - Açık kaynaklı, gözetim dışı depolama çözümü, sezgisel tasarımı ve sorunsuz kullanıcı deneyimi ile bilinir.
+* [Numio](https://www.numio.one/) - zkRollup'lar tarafından desteklenen hızlı ve ucuz ERC-20 işlemleri ve token takasları için gözetim dışı, Katman 2 Ethereum cüzdanı.
+* [Rainbow](https://rainbow.me/) - Ethereum varlıklarınız için daha iyi bir ev.
 
-#### Mobile Wallets
-* [Coinbase Wallet](https://github.com/CoinbaseWallet) - Mobile Dapp explorer and [wallet](https://apps.apple.com/us/app/coinbase-wallet/id1278383455)
-* [Cipher](https://www.cipherbrowser.com/) - Mobile Dapp explorer
-* [Trust](https://github.com/trustwallet) - Mobile [wallet](https://trustwallet.com/) for ERC tokens
-* [Status](https://github.com/status-im/status-react) - A free open-source, mobile OS for Ethereum
-* [imToken](https://token.im/) - Feature-rich digital asset mobile wallet enabling multi-chain asset management, DApp browsing and secure, private exchange of value
-* [Jaxx](https://jaxx.io) - Both a mobile and a desktop wallet. Has integrated Shapeshift support
-* [WallETH](https://walleth.org) - Native Android Ethereum Wallet
-* [eth-wallet-light](https://github.com/NoahZinsmeister/eth-wallet-light) - Lightweight JS Wallet optimized for mobile
-* [Metamask](https://play.google.com/apps/testing/io.metamask) - Mobile Ether wallet with ERC tokens support **beta**
-* [WiniWallet](https://www.winiwallet.io/) - Wallet for DAI stablecoin with multiple DeFi investment
-* [FreeWallet](https://freewallet.org/eth-wallet) - The best wallet to buy, store, send and receive Ethereum. The Ethereum Wallet by Freewallet is available on iOS, Android and the web.
-* [UnstopableWallet](https://unstoppable.money/) - Unstoppable Wallet is an open-source, non-custodial storage solution known for its intuitive design and frictionless user experience.
-* [Numio](https://www.numio.one/) - Numio is a non-custodial, Layer 2 Ethereum wallet, powered by zkRollups for fast and cheap ERC-20 transactions and token swaps.
-* [Rainbow](https://rainbow.me/) - A better home for your Ethereum assets.
+#### Donanım Cüzdanları
+* [Trezor](https://trezor.io) - İlk donanım cüzdanı
+* [Ledger](https://www.ledger.com/) - Birden fazla kripto para birimi ve token desteği
+* [KeepKey](https://shapeshift.io/keepkey/) - Basit donanım cüzdanı
 
-#### Hardware Wallets
-* [Trezor](https://trezor.io) - The original hardware wallet
-* [Ledger](https://www.ledger.com/) - Support for multiple cryptocurrencies and tokens
-* [KeepKey](https://shapeshift.io/keepkey/) - The simple hardware wallet
+### Blok Kaşifleri
+* [Etherscan](https://etherscan.io/) - Eth işlemlerini ve sözleşme kodunu görüntülemenin en popüler merkezi yolu
+* [BlockScout](https://github.com/poanetwork/blockscout) - Açık Kaynak Ethereum Blok kaşifi, [Ethprize](http://ethprize.io) tarafından finanse edilen ve [POA](https://poa.network/) tarafından geliştirilen
+* [TrueBlocks](https://github.com/Great-Hill-Corporation/trueblocks-core) - TrueBlocks, Ethereum blok zinciri verilerini (a) daha hızlı, (b) daha yüksek bilgi içeriğiyle, (c) tamamen merkezi olmayan bir şekilde, (d) tamamen otomatik bir şekilde ve (e) oldukça bakım gerektirmeyen bir şekilde almanıza olanak tanıyan yazılım kitaplıkları, uygulamalar, araçlar ve örneklerden oluşan bir koleksiyondur.
+* [Etherchain lite](https://github.com/gobitfly/etherchain-light) - Özel Ethereum zinciriniz için hafif blok zinciri kaşifi
+* [EthStats](https://ethstats.io/) - Ethereum Blok Zinciri Analitik Platformu
+* [Scout](https://scout.cool/) - Ethereum üzerindeki akıllı sözleşmelerinizin etkinliklerini ve olay kayıtlarını canlı veri akışı
+* [ethq](https://ethq.app) - [dfuse](https://dfuse.io) destekli, geliştiriciler için en ayrıntılı blok kaşifi
+* [Ethernal](https://www.tryethernal.com) - Özel zincir için Ethereum blok kaşifi. İşlemleri gözden geçirin, fonksiyon çağrılarını, olay verilerini veya sözleşme değişken değerlerini yerel olarak çalışan zincirinizde kodunu çözün.
 
-### Block explorers
-* [Etherscan](https://etherscan.io/) - most popular centralized way to view Eth transactions and contract code
-* [BlockScout](https://github.com/poanetwork/blockscout) - Open Source Ethereum Block explorer, funded by [Ethprize](http://ethprize.io) and developed by [POA](https://poa.network/)
-* [TrueBlocks](https://github.com/Great-Hill-Corporation/trueblocks-core) - TrueBlocks is a collection of software libraries, applications, tools, and examples that allow you to retrieve Ethereum blockchain data (a) more quickly, (b) with higher information content, \(c\) in an fully decentralized way, (d) in a fully automated way, and (e) in a highly maintenance free way.)
-* [Etherchain lite](https://github.com/gobitfly/etherchain-light) - Lightweight blockchain explorer for your private Ethereum chain
-* [EthStats](https://ethstats.io/) - The Ethereum Blockchain Analytics Platform
-* [Scout](https://scout.cool/) - A live data feed of the activities and event logs of your smart contracts on Ethereum
-* [ethq](https://ethq.app) - The [dfuse](https://dfuse.io) powered, most detailed, block explorer built for developers
-* [Ethernal](https://www.tryethernal.com) - Ethereum block explorer for private chain. Browse transactions, decode function calls, event data or contract variables values on your locally running chain.
+### Gaz Fiyatı Hesaplayıcıları ve Araçlar
+* [EthGasStation](https://ethgasstation.info/) - İşlem fiyatlarını vs. zamanlarını tahmin etmek için web sitesi
+* [Petrometer](https://github.com/makerdao/petrometer) - Belirli bir Ethereum adresinden gönderilen tüm işlemlerin günlük ve toplam gaz tüketimini özetler
 
-### Gas price calculators and tools
-* [EthGasStation](https://ethgasstation.info/) - Website for estimating tx prices vs times
-* [Petrometer](https://github.com/makerdao/petrometer) - Summarises daily and total gas consumption of all transactions sent from a specified Ethereum address
+### Hizmetler
+* [Provable](http://docs.provable.xyz/#ethereum) - Akıllı sözleşmeleriniz için doğruluk kanıtlarıyla desteklenen blok zinciri oracle hizmeti
+* [Infura](https://infura.io/) - Kendi ETH düğümünüzü barındırmak zorunda kalmamanız için API geçidi
+* [Moralis](https://moralis.io) - Blok zinciri verilerini verimli bir şekilde indekslemek, çeşitli web3 cüzdanlarını doğrulamak ve birden fazla EVM zincirinde gerçek zamanlı blok zinciri etkinliklerini dinlemek için kullanılabilecek kurumsal düzeyde Web3 API'si
+* [Quiknode](https://quiknode.io/) - Kişisel Parity/Geth düğümleri oluşturma hizmeti
+* [Nodesmith](https://nodesmith.io/) - Ethereum ana ağı ve test ağı düğümlerine ücretsiz API erişimi, yerel düğüm gibi kullanılabilir
+* [dfuse](https://dfuse.io) - Dünya çapında uygulamalar oluşturmak için şık blok zinciri API'leri
+* [Regis](https://regis.nu/) - Dijital Varlıklar için Kayıt Çerçevesi
+* [Treum](https://treum.io/) - İş süreci odaklı kullanım durumuysa Treum'u arka ucunuz olarak düşünün, eski adı Viant
+* [uPort](https://www.uport.me/) - Tam kimlik çözümü
+* [Ether Address Lookup](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn?hl=en-GB) - Kimlik avı koruması ve Eth adresi vurgulama için Chrome uzantısı
+* [Netstats](https://github.com/cubedro/eth-netstats) - Ethereum Ağı [İstatistikleri](https://ethstats.net/)
+* [ENS](https://github.com/ensdomains) - ENS, basit, insan tarafından okunabilir [isimler](https://ens.domains/) kullanarak hem zincir içi hem de zincir dışı kaynaklara güvenli ve merkezi olmayan bir şekilde adresleme imkanı sunar
+* [Name Bazaar](https://namebazaar.io/) - Ethereum Name Service üzerinden kaydedilen isimlerin değişimi için eşler arası pazar yeri
+* [Quantstamp](https://quantstamp.com) - Ücret karşılığında otomatik ve manuel akıllı sözleşme güvenlik denetimleri sunan bir hizmet
+* [SmartCheck](https://tool.smartdec.net/) - Güvenlik açıkları ve en iyi uygulamalar için Solidity kaynak kodunun statik analizi
+* [MD4 Online Hash Function](https://emn178.github.io/online-tools/md4.html) - Çeşitli karma algoritma seçenekleriyle girdiyi karma yapmak için araç
+* [iExec SDK](https://github.com/iExecBlockchainComputing/iexec-sdk) - Akıllı sözleşmelere zincir dışı fonksiyonlar veya uygulamalar yürütme yeteneği verir. Docker görüntüsü olarak sağlanan tüm eski uygulamaları destekler.
+* [Incentivai](https://incentivai.co) - ML ajanları ile simülasyon yoluyla akıllı sözleşme ekonomilerinin test edilmesi
+* [Arkane - A wallet provider for Dapps](https://arkane.network/pages/build-on-arkane.html) - Bir API geçidi sunar ve dapp'ler ve kullanıcıları için cüzdanlar ve cüzdan yönetimi sağlar.
+* [Aave SDK](https://github.com/aave/aave-js) - Merkezi olmayan borç verme pazar yeri [ETHLend](https://ethlend.io) API'leri ile bağlantı kurmak için JavaScript kitaplığı.
+* [Rockside Cloud](https://rockside.io) - Ethereum ağ erişim sağlayıcısı ve konsorsiyum blok zinciri oluşturucu
+* [Chainstack](https://chainstack.com/) - Hizmet olarak paylaşılan ve özel Ethereum düğümleri
+* [BUIDLHub](https://buidlhub.com) - Geleneksel web hizmetleri ve ethereum arasında otomatik iş akışları oluşturun. Botlar, web kancaları, özel dapp entegrasyonları vb. destekler.
+* [Watchdata](https://watchdata.io) - Ethereum blok zincirine basit ve güvenilir API erişimi sağlar
+* [Picket](https://picketapi.com) - Cüzdan tabanlı kimlik doğrulama ve token tabanlı yetkilendirme (diğer adıyla token geçişi) için basit bir API ve SDK
+* [Chainnodes](https://www.chainnodes.org/) - Tüm büyük EVM zincirlerini destekleyen kurumsal düzeyde düşük gecikmeli Web3 Altyapı sağlayıcısı.
 
-### Services
-* [Provable](http://docs.provable.xyz/#ethereum) - Blockchain oracle service backed by authenticity proofs, for your smart contracts
-* [Infura](https://infura.io/) - API gateway so you don't have to host your own ETH node
-* [Moralis](https://moralis.io) - Enterprise-grade Web3 API that can be used for efficiently indexing blockchain data, authenticate various web3 wallets, and listen to real-time blockchain events in multiple EVM chains
-* [Quiknode](https://quiknode.io/) - Service to spin up personal Parity/Geth nodes
-* [Nodesmith](https://nodesmith.io/) - Free API access to full Ethereum mainnet and testnet nodes, can be used just like a local node
-* [dfuse](https://dfuse.io) - Slick blockchain APIs to build world-class applications
-* [Regis](https://regis.nu/) - Registry Framework for Digital Assets
-* [Treum](https://treum.io/) - Just consider using Treum as your backend if the use case is business process oriented, formerly Viant
-* [uPort](https://www.uport.me/) - Total identity solution
-* [Ether Address Lookup](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn?hl=en-GB) - Chrome extension for phishing protection and Eth address highlighting
-* [Netstats](https://github.com/cubedro/eth-netstats) - Ethereum Network [Stats](https://ethstats.net/)
-* [ENS](https://github.com/ensdomains) - ENS offers a secure & decentralised way to address resources both on and off the blockchain using simple, human-readable [names](https://ens.domains/)
-* [Name Bazaar](https://namebazaar.io/) - A peer-to-peer marketplace for the exchange of names registered via the Ethereum Name Service
-* [Quantstamp](https://quantstamp.com) - A service that offers automated and manual smart contract security audits for a fee
-* [SmartCheck](https://tool.smartdec.net/) - Static analysis of Solidity source code for security vulnerabilities and best practices
-* [MD4 Online Hash Function](https://emn178.github.io/online-tools/md4.html) - Tool to hash input with a variety of hashing algorithm options
-* [iExec SDK](https://github.com/iExecBlockchainComputing/iexec-sdk) - Gives smart contract the ability to execute functions or applications off-chain. Support any legacy applications provided as a Docker image.
-* [Incentivai](https://incentivai.co) - Testing of smart contract economies via simulation with ML agents
-* [Arkane - A wallet provider for Dapps](https://arkane.network/pages/build-on-arkane.html) - Offers an API gateway and provides wallets and wallet management to dapps and their users.
-* [Aave SDK](https://github.com/aave/aave-js) - JavaScript library to connect with the APIs of the Aave ecosystem as the decentralized lending marketplace [ETHLend](https://ethlend.io).
-* [Rockside Cloud](https://rockside.io) - Ethereum network access provider and consortium blockchain builder
-* [Chainstack](https://chainstack.com/) - Shared and dedicated Ethereum nodes as a service
-* [BUIDLHub](https://buidlhub.com) - Create automated workflows between traditional web services & ethereum. Supports bots, webhooks, custom dapp integrations, etc.
-* [Watchdata](https://watchdata.io) - Provide simple and reliable API access to Ethereum blockchain
-* [Picket](https://picketapi.com) - A simple API and SDK for wallet-based authentication and token-based authorization (a.k.a token-gating)
-* [Chainnodes](https://www.chainnodes.org/) - Web3 Infrastructure provider with enterprise grade low latency for all. Supports all major EVM chains.
-
-### Knowledge/Education
-* [Awesome Buggy ERC20 Tokens](https://github.com/sec-bit/awesome-buggy-erc20-tokens) - A Collection of Vulnerabilities in ERC20 Smart Contracts With Tokens Affected
-* [Solidity idiosyncrasies](https://github.com/miguelmota/solidity-idiosyncrasies) - Solidity gotchas, pitfalls, limitations, and idiosyncrasies
-* [Ethereum development with Go](https://github.com/miguelmota/ethereum-development-with-go-book) - A little [book](https://goethereumbook.org) on Ethereum Development with Golang
-* [Consensys Academy](https://consensys.net/academy/) - Courses
-* [Moralis Academy](https://academy.moralis.io) - Paid courses on Solidity programming, dApp development, and building blockchain business
-* [B9Lab](https://academy.b9lab.com/) - Paid courses
-* [Blockgeeks](https://courses.blockgeeks.com/) - Paid courses on solidity/dapp development
-* [Chainshot building blocks](https://www.chainshot.com/) - Paid Courses
-* [Kauri](https://kauri.io/) - Openly accessible community knowledge base and tutorials
-* [Delegate call](https://cleverflare.com/) - Courses
-* [Stackexchange](https://ethereum.stackexchange.com) - Q&A site
-* [r/EthDev](https://www.reddit.com/r/ethdev/) - Subreddit
-* [Reducing Gas Fees](https://medium.com/stk-token/research-of-the-week-reducing-gas-fees-9061d19cc171) - Tips and tricks to reducing gas spent on execution
-* [Dapp University](http://www.dappuniversity.com) - Free Video Tutorials
+### Bilgi/Eğitim
+* [Awesome Buggy ERC20 Tokens](https://github.com/sec-bit/awesome-buggy-erc20-tokens) - ERC20 Akıllı Sözleşmelerindeki Hataların ve Etkilenen Tokenlerin Koleksiyonu
+* [Solidity idiosyncrasies](https://github.com/miguelmota/solidity-idiosyncrasies) - Solidity'deki tuhaflıklar, tuzaklar, sınırlamalar ve idiosynkrasiler
+* [Ethereum development with Go](https://github.com/miguelmota/ethereum-development-with-go-book) - Golang ile Ethereum Geliştirme üzerine bir [kitap](https://goethereumbook.org)
+* [Consensys Academy](https://consensys.net/academy/) - Kurslar
+* [Moralis Academy](https://academy.moralis.io) - Solidity programlama, dApp geliştirme ve blockchain iş geliştirme üzerine ücretli kurslar
+* [B9Lab](https://academy.b9lab.com/) - Ücretli kurslar
+* [Blockgeeks](https://courses.blockgeeks.com/) - Solidity/dapp geliştirme üzerine ücretli kurslar
+* [Chainshot building blocks](https://www.chainshot.com/) - Ücretli kurslar
+* [Kauri](https://kauri.io/) - Açık erişimli topluluk bilgi tabanı ve eğitimler
+* [Delegate call](https://cleverflare.com/) - Kurslar
+* [Stackexchange](https://ethereum.stackexchange.com) - Soru-Cevap sitesi
+* [r/EthDev](https://www.reddit.com/r/ethdev/) - Altreddit
+* [Reducing Gas Fees](https://medium.com/stk-token/research-of-the-week-reducing-gas-fees-9061d19cc171) - Yürütme sırasında harcanan gaz ücretlerini azaltma ipuçları ve püf noktaları
+* [Dapp University](http://www.dappuniversity.com) - Ücretsiz Video Eğitimleri
 * [Attacks on Smart Contracts](https://www.cryptologie.net/article/423/attacks-on-ethereum-smart-contracts/)
-* [Zastrin](https://www.zastrin.com) - Paid courses on Solidity/Dapp Development
-* [Chainstack Docs](https://docs.chainstack.com/tutorials/) - Step-by-step DApp building tutorials
-* [Learn web 3 DAO](https://www.learnweb3.io/) - Curious about Web3 as a developer? Wonder what are NFTs, DAOs, DeFi, and Smart Contracts? This is the place for you!
-* [Dapp learning DAO](https://github.com/Dapp-Learning-DAO/Dapp-Learning) - Definitive Guide for Decentralized-app(Dapp) Development on Blockchain Step-by-step Dapp practice through actual projects.
-* [L2Beat](https://l2beat.com/) - Analytics and research website about Ethereum layer two (L2) scaling solutions.
+* [Zastrin](https://www.zastrin.com) - Solidity/Dapp Geliştirme üzerine ücretli kurslar
+* [Chainstack Docs](https://docs.chainstack.com/tutorials/) - Adım adım DApp geliştirme eğitimleri
+* [Learn web 3 DAO](https://www.learnweb3.io/) - Bir geliştirici olarak Web3'e meraklı mısınız? NFT'ler, DAO'lar, DeFi ve Akıllı Sözleşmeler nedir merak ediyor musunuz? Bu sizin için doğru yer!
+* [Dapp learning DAO](https://github.com/Dapp-Learning-DAO/Dapp-Learning) - Blockchain üzerinde Merkezi Olmayan Uygulama (Dapp) Geliştirme için Kesin Kılavuz. Gerçek projelerle adım adım Dapp uygulamaları.
+* [L2Beat](https://l2beat.com/) - Ethereum ikinci katman (L2) ölçeklendirme çözümleri hakkında analizler ve araştırma web sitesi.
 
-#### Security best practices
-* [Smart contract best practices](https://github.com/ConsenSys/smart-contract-best-practices) - by ConsenSys
-* [Safety wiki](https://github.com/ethereum/wiki/wiki/Safety) - Ethereum Foundation wiki on safety
-* [Solidity school](https://github.com/Aniket-Engg/solidity-school) - This is an initiative for the early solidity developers by those who were early developers sometime.
+#### Güvenlik en iyi uygulamaları
+* [Smart contract best practices](https://github.com/ConsenSys/smart-contract-best-practices) - ConsenSys tarafından
+* [Safety wiki](https://github.com/ethereum/wiki/wiki/Safety) - Ethereum Vakfı'nın güvenlik hakkında wiki'si
+* [Solidity school](https://github.com/Aniket-Engg/solidity-school) - Bu, bir zamanlar erken geliştiriciler olanlar tarafından erken Solidity geliştiricileri için bir girişimdir.
 
-#### Solidity Games!
-* [OpenZeppelin Ethernaut](https://ethernaut.openzeppelin.com/) - Web3/Solidity based wargame
-* [Cryptozombies](https://cryptozombies.io/) - The best undead tutorial in the world
+#### Solidity Oyunları!
+* [OpenZeppelin Ethernaut](https://ethernaut.openzeppelin.com/) - Web3/Solidity tabanlı savaş oyunu
+* [Cryptozombies](https://cryptozombies.io/) - Dünyanın en iyi zombi eğitim programı
 * [Capture the Ether](https://capturetheether.com/)
 
-#### Scaling
-* [Comprehensive Medium article](https://medium.com/l4-media/making-sense-of-ethereums-layer-2-scaling-solutions-state-channels-plasma-and-truebit-22cb40dcc2f4) on various solutions to scale Ethereum
-* [Using Multitoken Payment Channels to sign off-chain transactions](https://github.com/STKtoken/Multi-Token-smart-contracts)
+#### Ölçeklendirme
+* [Comprehensive Medium article](https://medium.com/l4-media/making-sense-of-ethereums-layer-2-scaling-solutions-state-channels-plasma-and-truebit-22cb40dcc2f4) - Ethereum'u ölçeklendirmek için çeşitli çözümler üzerine kapsamlı bir Medium makalesi
+* [Using Multitoken Payment Channels to sign off-chain transactions](https://github.com/STKtoken/Multi-Token-smart-contracts) - Zincir dışı işlemleri imzalamak için Multitoken Ödeme Kanallarını kullanma
 
-### Reference
-* [Wiki](https://github.com/ethereum/wiki/wiki) - Ethereum wiki covering all things related to Ethereum
-* [Yellow Paper](https://github.com/ethereum/yellowpaper) - Ethereum's formal specification
-* [Beige Paper](https://github.com/chronaeon/beigepaper/blob/master/beigepaper.pdf) - Rewrite of the yellow paper in non-yellow-paper syntax
-* [EthOn](https://github.com/ConsenSys/EthOn) - An ontology is a formalisation of concepts and relations within a domain. EthOn is written in RDF and OWL
-* [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook) - by Andreas M. Antonopoulos, Gavin Wood, and many others
-* [EVM opcodes](https://github.com/crytic/evm-opcodes) - Ethereum opcodes and instruction reference
-* [EVM illustrated](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf) - This is an illustrated document about the Ethereum Virtual Machine
-* [4bytes](https://github.com/ethereum-lists/4bytes) - List of 4byte identifiers to common smart contract functions [function signatures](https://www.4byte.directory/)
-* [Solidity cheat sheet](https://topmonks.github.io/solidity_quick_ref/) - Quick overview of Solidity syntax
-* [Solidity & Vyper cheat sheet](http://reference.auditless.com/cheatsheet/) - Side-by-side cheat sheet for Solidity and Vyper
+### Referans
+* [Wiki](https://github.com/ethereum/wiki/wiki) - Ethereum ile ilgili her şeyi kapsayan Ethereum wiki
+* [Yellow Paper](https://github.com/ethereum/yellowpaper) - Ethereum'un resmi spesifikasyonu
+* [Beige Paper](https://github.com/chronaeon/beigepaper/blob/master/beigepaper.pdf) - Sarı kağıdın sarı kağıt olmayan bir dilde yeniden yazımı
+* [EthOn](https://github.com/ConsenSys/EthOn) - Bir ontoloji, bir alan içindeki kavramların ve ilişkilerin resmileştirilmesidir. EthOn, RDF ve OWL ile yazılmıştır.
+* [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook) - Andreas M. Antonopoulos, Gavin Wood ve diğerleri tarafından
+* [EVM opcodes](https://github.com/crytic/evm-opcodes) - Ethereum opcodları ve komut referansı
+* [EVM illustrated](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf) - Ethereum Sanal Makinesi hakkında resimli bir belge
+* [4bytes](https://github.com/ethereum-lists/4bytes) - Yaygın akıllı sözleşme fonksiyonlarına ait 4 baytlık kimlik listesi [fonksiyon imzaları](https://www.4byte.directory/)
+* [Solidity cheat sheet](https://topmonks.github.io/solidity_quick_ref/) - Solidity söz diziminin hızlı bir özeti
+* [Solidity & Vyper cheat sheet](http://reference.auditless.com/cheatsheet/) - Solidity ve Vyper için yan yana hile sayfası
 
-### Governance
-* [Ethresear.ch](https://ethresear.ch/) - Semi-public forum for participating in Ethereum's research efforts, including but not limited to: Casper, Sharding, EVM improvements, Cryptoeconomics, Plasma and State-channels
-* [Fellowship of Ethereum Magicians](https://ethereum-magicians.org/) - This discussion board facilitates meaningful communications among individuals throughout the Ethereum community
-* [EIPs](https://eips.ethereum.org/) - The Ethereum Improvement Proposal repository
-* [Aragon Research Forum](https://forum.aragon.org/) - Long-form discussions related to Aragon's research efforts including governance, economics, and token engineering
+### Yönetişim
+* [Ethresear.ch](https://ethresear.ch/) - Ethereum'un araştırma çalışmalarına katılmak için yarı kamu forumu, Casper, Sharding, EVM iyileştirmeleri, Kriptoekonomi, Plasma ve Durum kanalları dahil ancak bunlarla sınırlı olmamak üzere
+* [Fellowship of Ethereum Magicians](https://ethereum-magicians.org/) - Ethereum topluluğu içindeki bireyler arasında anlamlı iletişimi kolaylaştıran tartışma platformu
+* [EIPs](https://eips.ethereum.org/) - Ethereum İyileştirme Önerisi havuzu
+* [Aragon Research Forum](https://forum.aragon.org/) - Yönetişim, ekonomi ve token mühendisliği dahil olmak üzere Aragon'un araştırma çabalarına ilişkin uzun biçimli tartışmalar
 
-### Decentralized Exchanges
-* [Airswap](https://www.airswap.io/) - decentralized token exchange
-* [0x](https://0x.org/) protocol based decentralized exchanges
+### Merkezi Olmayan Borsalar
+* [Airswap](https://www.airswap.io/) - Merkezi olmayan token borsası
+* [0x](https://0x.org/) protokol tabanlı merkezi olmayan borsalar
 * [Radar relay](https://app.radarrelay.com/)
 * [ERC Dex](https://ercdex.com/)
 * [DDEX](https://ddex.io)
@@ -157,8 +156,8 @@ Many thanks to the 20+ contributors including [@corbpage](https://twitter.com/co
 * [Bamboo Relay](https://www.bamboorelay.com)
 * [Instex](https://app.instex.io)
 * [Starbit](https://exchange.star-bit.io/)
-* [Opensea.io](https://Opensea.io) - decentralized exchange of cryptocollectibles
-* [Rarible.com](https://rarible.com) - decentralized exchange of cryptocollectibles
+* [Opensea.io](https://Opensea.io) - Kripto koleksiyonlarının merkezi olmayan borsası
+* [Rarible.com](https://rarible.com) - Kripto koleksiyonlarının merkezi olmayan borsası
 * [Bancor](https://www.bancor.network/)
 * [Kyber](https://www.kyber.network)
 * [Gnosis Dutch Exchange](https://github.com/gnosis/dx-contracts)
@@ -166,36 +165,35 @@ Many thanks to the 20+ contributors including [@corbpage](https://twitter.com/co
 * [dYdX Exchange](https://trade.dydx.exchange/r/defiprime)
 * [1inch Exchange](https://app.1inch.io/#/1/swap/ETH/DAI)
 
+### Teşvik / Para Kazanma Araçları
+* [Gitcoin](https://gitcoin.co) - Açık Kaynak projeler için fon sağlama veya Açık Kaynak iş bulma ödül ağı
+* [CodeFund](https://codefund.io) - Açık Kaynak için Etik Reklam Platformu
 
-### Incentivisation / Monetisation Tools
-* [Gitcoin](https://gitcoin.co) - Bounty network for funding Open Source or finding Open Source work
-* [CodeFund](https://codefund.io) - Ethical Advertising Platform for Open Source
+### Harika listeler
+* [Awesome Cryptoeconomics](https://github.com/jpantunes/awesome-cryptoeconomics) - Kriptoekonomi araştırma ve öğrenme materyalleri için özenle seçilmiş bir liste
+* [Awesome Solidity](https://github.com/bkrem/awesome-solidity) - Harika Solidity kaynakları, kütüphaneler, araçlar ve daha fazlası için özenle seçilmiş bir liste
+* [Awesome EVM](https://github.com/pirapira/awesome-ethereum-virtual-machine) - Ethereum Sanal Makinesi için Harika Liste
+* [Awesome State-Channels](https://github.com/machinomy/awesome-state-channels) - Ethereum üzerinde durum kanalları hakkında kaynaklar için özenle seçilmiş bir liste.
+* [Defiprime.com](https://defiprime.com/) - Harika merkezi olmayan finans projeleri, yazılımlar, etkinlikler ve kaynaklar için özenle seçilmiş bir liste
+* [DEX protocols](https://github.com/evbots/dex-protocols) - Merkezi olmayan borsa protokolleri için bir liste
+* [Ethereum Token Standards](https://github.com/PhABC/ethereum-token-standards-list) - Ethereum Token Standartlarının kapsamlı bir listesi
+* [Web3Grants.net](https://web3grants.net) - Web3/kripto ile ilgili hibe programlarının listesi
+* [Ethereum Ecosystem](https://www.ethereum-ecosystem.com/) - 1000+ dApp ile Ethereum ve Katman 2'leri için resmi olmayan Ekosistem sayfası
 
-### Awesome lists
-* [Awesome Cryptoeconomics](https://github.com/jpantunes/awesome-cryptoeconomics) - A curated list of cryptoeconomic research and learning materials
-* [Awesome Solidity](https://github.com/bkrem/awesome-solidity) - A curated list of awesome Solidity resources, libraries, tools and more
-* [Awesome EVM](https://github.com/pirapira/awesome-ethereum-virtual-machine) - Ethereum Virtual Machine Awesome List
-* [Awesome State-Channels](https://github.com/machinomy/awesome-state-channels) - Curated list of resources regarding state channels on Ethereum.
-* [Defiprime.com](https://defiprime.com/) - A curated list of awesome decentralized finance projects, software, events, and resources
-* [DEX protocols](https://github.com/evbots/dex-protocols) - A list of protocols for decentralised exchange
-* [Ethereum Token Standards](https://github.com/PhABC/ethereum-token-standards-list) - An exhaustive list of Ethereum Token Standards
-* [Web3Grants.net](https://web3grants.net) - A list of web3/crypto related grant programs
-* [Ethereum Ecosystem](https://www.ethereum-ecosystem.com/) - An unofficial Ecosystem page for Ethereum and its Layer 2s featuring 1000+ dApps
+### Merkezi Olmayan Finans (DeFi)
+* [ETHLend](https://ethlend.io) - Dünyanın dört bir yanındaki insanların kredi almasına veya kredi veren olmasına olanak tanıyan merkezi olmayan eşler arası kredi piyasası.
+* [Aave Pay](https://pay.aave.com) - Aave Pay, kullanıcıların kripto para birimlerini kullanarak banka hesaplarına FIAT para birimleriyle ödeme yapmalarına olanak tanır.
+* [rTrees](https://rtrees.dappy.dev) - DeFi faizi kullanarak gerçek ağaçlar yetiştirmek için kayıpsız bir bağış uygulaması.
+* [Laizer-pay](https://www.lazerpay.finance/) - DeFi faizi kullanarak gerçek ağaçlar yetiştirmek için kayıpsız bir bağış uygulaması.
 
-### Decentralized Finance (DeFi)
-* [ETHLend](https://ethlend.io) - Decentralised peer to peer lending marketplace that allows people all over the world to get a loan or become a lender.
-* [Aave Pay](https://pay.aave.com) - Aave Pay allow users to pay in FIAT currencies to bank accounts using their cryptocurrencies.
-* [rTrees](https://rtrees.dappy.dev) - A no-loss donation app for growing real trees using DeFi interest.
-* [Laizer-pay](https://www.lazerpay.finance/) - A no-loss donation app for growing real trees using DeFi interest.
+### Merkezi Olmayan Bulut (Veritabanı, Dosya Depolama ve Hesaplama)
 
-### Decentralized Cloud (Database, File Storage and Computing)
+* [Aleph.im](https://Aleph.im) - Ethereum ve IPFS ile uyumlu zincir dışı teşvikli eşler arası bulut projesi (veritabanı, dosya depolama, hesaplama ve DID).
+* [Stow](https://github.com/stow-protocol) - Bileşenlerimiz ve SDK ile kullanıcılarınız için verileri güvenli bir şekilde saklayın ve paylaşın. Eski adıyla Linnia.
 
-* [Aleph.im](https://Aleph.im) - an offchain incentivized peer-to-peer cloud project (database, file storage, computing and DID) compatible with Ethereum and IPFS.
-* [Stow](https://github.com/stow-protocol) - Securely store and share data for your users in minutes with our components and SDK. Formerly Linnia.
-
-### Jobs
-- [Jobs at ConsenSys](https://consensys.net/careers/) - jobs at ConsenSys
-- [Jobs at Ethereum Foundation](https://ethereum.bamboohr.com/jobs/) - jobs at Ethereum Foundation
-- [Jobs at Moralis](https://talent.moralis.io) - jobs at Moralis
-- [Solidity Jobs](https://cryptojobslist.com/solidity-jobs) - list of Solidity jobs on Crypto Jobs List
-- [Web3Jobs](https://web3.career) - list of jobs in Web3.
+### İşler
+- [Jobs at ConsenSys](https://consensys.net/careers/) - ConsenSys'te işler
+- [Jobs at Ethereum Foundation](https://ethereum.bamboohr.com/jobs/) - Ethereum Vakfı'nda işler
+- [Jobs at Moralis](https://talent.moralis.io) - Moralis'te işler
+- [Solidity Jobs](https://cryptojobslist.com/solidity-jobs) - Crypto Jobs List'te Solidity işleri listesi
+- [Web3Jobs](https://web3.career) - Web3'te işler listesi.
